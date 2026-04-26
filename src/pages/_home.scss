@@ -1,0 +1,82 @@
+#hero-section{
+    width: 1080px;
+    height: 470px;
+    background-image: url(/img/435f47eb124041c6fdb97760b61c1991\ hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 85px;
+    margin-top: 40px;
+     position: relative;
+    .text{
+        background-color: white;
+        width: 382px;
+        height: 240px;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        border-radius: 5px;
+        padding-left: 22px;  
+        button{
+            width: 130px;
+            height: 47px;
+            background-color: orange;
+            border: 0;
+            border-radius: 5px;
+        } 
+    }
+}
+#order{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+     img{
+   width: 705px;
+    height: 297px;
+    }
+    button{
+            width: 130px;
+            height: 47px;
+            background-color: orange;
+            border: 0;
+            border-radius: 5px;
+        } 
+}
+#app{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+     img{
+   width: 705px;
+    height: 297px;
+    }
+    button{
+            width: 130px;
+            height: 47px;
+            background-color: orange;
+            border: 0;
+            border-radius: 5px;
+        } 
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    margin-top: 65px;
+    button{
+            width: 140px;
+            height: 47px;
+            background-color: orange;
+            border: 0;
+            border-radius: 5px;
+        } 
+    img{
+    width: 357px;
+    height: 159px;
+    }
+}
+
+
