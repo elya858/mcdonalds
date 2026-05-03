@@ -1,6 +1,6 @@
 footer {
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 footer .items {
   display: flex;
@@ -106,20 +106,118 @@ header .links {
   border-radius: 5px;
 }
 
-.cards {
+#all-cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#all-cards .cards {
   display: flex;
   justify-content: center;
   gap: 44px;
   margin-top: 65px;
 }
-.cards button {
+#all-cards .cards button {
   width: 140px;
   height: 47px;
   background-color: orange;
   border: 0;
   border-radius: 5px;
 }
-.cards img {
+#all-cards .cards img {
   width: 357px;
   height: 159px;
+}
+
+#hero {
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+#beef {
+  padding-top: 90px;
+}
+
+#all-cards1 {
+  display: flex;
+}
+#all-cards1 img {
+  width: 357px;
+  height: 159px;
+}
+#all-cards1 .card {
+  border: none;
+}
+#all-cards1 button {
+  width: 130px;
+  height: 47px;
+  background-color: orange;
+  border: 0;
+  border-radius: 5px;
+}
+
+#adres {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#family {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+#all-cards1 {
+  display: flex;
+  justify-content: center;
+}
+#all-cards1 button {
+  width: 180px;
+  height: 47px;
+  background-color: orange;
+  border: 0;
+  border-radius: 5px;
+}
+#all-cards1 img {
+  width: 450px;
+  height: 200px;
+}
+#all-cards1 .cards {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  margin-top: 65px;
+}
+
+#order1 {
+  margin-top: 90px;
+}
+
+#app1 {
+  margin-top: 90px;
+}
+
+#email {
+  margin-top: 90px;
+}
+
+#text-con {
+  width: 100%;
+  margin-top: 90px;
+}
+#text-con p {
+  font-size: 15px;
+}
+#text-con ul {
+  font-size: 15px;
+}
+
+#hero-section1 {
+  text-align: center;
+}
+
+#text {
+  text-align: center;
+  margin-top: 90px;
 }/*# sourceMappingURL=style.css.map */

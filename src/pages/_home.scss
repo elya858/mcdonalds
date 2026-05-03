@@ -61,7 +61,11 @@
             border-radius: 5px;
         } 
 }
-.cards{
+#all-cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .cards{
     display: flex;
     justify-content: center;
     gap: 44px;
@@ -78,5 +82,7 @@
     height: 159px;
     }
 }
+}
+
 
 
